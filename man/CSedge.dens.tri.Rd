@@ -17,7 +17,8 @@ CSedge.dens.tri(
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graphs of the CS-PCD.}
+which constitute the vertices of the underlying
+or reflexivity graphs of the CS-PCD.}
 
 \item{tri}{A \eqn{3 \times 2} matrix with each row
 representing a vertex of the triangle.}
@@ -74,10 +75,12 @@ for uniform data in the triangle \code{tri}
 only when \code{M} is the center of mass.
 For the number of edges, loops are not allowed.
 
-\code{in.tri.only} is a logical argument (default is \code{FALSE}) for considering only the points
+\code{in.tri.only} is a logical argument (default is \code{FALSE})
+for considering only the points
 inside the triangle or all the points as the vertices of the digraph.
 if \code{in.tri.only=TRUE}, edge density is computed only for
-the points inside the triangle (i.e., edge density of the subgraph of the underlying or reflexivity graph
+the points inside the triangle (i.e., edge density of the subgraph of
+the underlying or reflexivity graph
 induced by the vertices in the triangle is computed),
 otherwise edge density of the entire graph
 (i.e., graph with all the vertices) is computed.

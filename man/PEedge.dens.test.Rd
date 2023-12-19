@@ -2,8 +2,8 @@
 % Please edit documentation in R/PropEdgeUG2D.R
 \name{PEedge.dens.test}
 \alias{PEedge.dens.test}
-\title{A test of segregation/association based on edge density
-of underlying or reflexivity graph of Proportional Edge Proximity Catch Digraph
+\title{A test of segregation/association based on edge density of underlying
+or reflexivity graph of Proportional Edge Proximity Catch Digraph
 (PE-PCD) for 2D data}
 \usage{
 PEedge.dens.test(

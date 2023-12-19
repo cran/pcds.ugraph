@@ -10,7 +10,8 @@ edgesPE(Xp, Yp, r, M = c(1, 1, 1), ugraph = c("underlying", "reflexivity"))
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graph of the PE-PCD.}
+which constitute the vertices of the underlying
+or reflexivity graph of the PE-PCD.}
 
 \item{Yp}{A set of 2D points
 which constitute the vertices of the Delaunay triangles.}
@@ -27,7 +28,8 @@ default for \eqn{M=(1,1,1)}
 which is the center of mass of each triangle.}
 
 \item{ugraph}{The type of the graph based on PE-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 }
 \value{
@@ -52,7 +54,8 @@ the underlying or reflexivity graph of PE-PCD for 2D data set \code{Xp}
 as vertices of the underlying or reflexivity graph of the digraph}
 \item{mtitle}{Text for \code{"main"} title
 in the plot of the underlying or reflexivity graph of the digraph}
-\item{quant}{Various quantities for the underlying or reflexivity graph of the digraph:
+\item{quant}{Various quantities for the underlying
+or reflexivity graph of the digraph:
 number of vertices, number of partition points,
 number of intervals, number of edges, and edge density.}
 }

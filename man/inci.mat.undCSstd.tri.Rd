@@ -15,7 +15,8 @@ inci.mat.undCSstd.tri(
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graphs of the CS-PCD.}
+which constitute the vertices of the underlying
+or reflexivity graphs of the CS-PCD.}
 
 \item{t}{A positive real number
 which serves as the expansion parameter in CS proximity region.}

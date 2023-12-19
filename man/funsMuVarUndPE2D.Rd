@@ -5,8 +5,8 @@
 \alias{muOrPE2D}
 \alias{muAndPE2D}
 \alias{mu.undPE2D}
-\alias{asyvarOrPE2D}
-\alias{asyvarAndPE2D}
+\alias{asy.varOrPE2D}
+\alias{asy.varAndPE2D}
 \alias{asy.var.undPE2D}
 \title{Returns the mean and (asymptotic) variance of edge density of
 underlying or reflexivity graph of
@@ -19,9 +19,9 @@ muAndPE2D(r)
 
 mu.undPE2D(r, ugraph = c("underlying", "reflexivity"))
 
-asyvarOrPE2D(r)
+asy.varOrPE2D(r)
 
-asyvarAndPE2D(r)
+asy.varAndPE2D(r)
 
 asy.var.undPE2D(r, ugraph = c("underlying", "reflexivity"))
 }
@@ -31,16 +31,19 @@ as the expansion parameter in PE proximity region;
 must be \eqn{\ge 1}.}
 
 \item{ugraph}{The type of the graph based on PE-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 }
 \value{
 \code{mu.undPE2D} returns the mean
-and \code{asyvarUndOrPE2D} returns the (asymptotic) variance of the
-edge density of the underlying graph of the PE-PCD for uniform data in any triangle
-if \code{ugraph="underlying"}, and those of the reflexivity graph if \code{ugraph="reflexivity"}.
-The functions \code{muOrPE2D}, \code{muAndPE2D}, \code{asyvarOrPE2D},
-and \code{asyvarAndPE2D} are the corresponding mean
+and \code{asy.varUndOrPE2D} returns the (asymptotic) variance of the
+edge density of the underlying graph of the PE-PCD for
+uniform data in any triangle
+if \code{ugraph="underlying"}, and those of the reflexivity graph
+if \code{ugraph="reflexivity"}.
+The functions \code{muOrPE2D}, \code{muAndPE2D}, \code{asy.varOrPE2D},
+and \code{asy.varAndPE2D} are the corresponding mean
 and asymptotic variance functions
 for the edge density of the reflexivity graph of the PE-PCD,
 respectively, for uniform data in any triangle.
@@ -49,15 +52,15 @@ respectively, for uniform data in any triangle.
 The mean and (asymptotic) variance functions
 for the underlying or reflexivity graph of
 Proportional Edge Proximity Catch Digraphs (PE-PCDs):
-\code{muOrPE2D} and \code{asyvarOrPE2D} for the underlying graph
+\code{muOrPE2D} and \code{asy.varOrPE2D} for the underlying graph
 and
-\code{muAndPE2D} and \code{asyvarAndPE2D} for the reflexivity graph.
+\code{muAndPE2D} and \code{asy.varAndPE2D} for the reflexivity graph.
 
 \code{muOrPE2D} and \code{muAndPE2D} return the mean of the (edge) density of
 the underlying or reflexivity graph of PE-PCDs, respectively,
 for 2D uniform data in a triangle.
 Similarly,
-\code{asyvarOrPE2D} and \code{asyvarAndPE2D} return the asymptotic variance
+\code{asy.varOrPE2D} and \code{asy.varAndPE2D} return the asymptotic variance
 of the edge density of the underlying or reflexivity graph of PE-PCDs,
 respectively, for 2D uniform data in a triangle.
 
@@ -122,8 +125,8 @@ par(oldpar)
 }
 \seealso{
 \code{\link{mu.undCS2D}}, \code{\link{asy.var.undCS2D}},
-\code{\link[pcds]{muPE2D}}, \code{\link[pcds]{asyvarPE2D}},
-\code{\link{muAndCS2D}}, and \code{\link{asyvarAndCS2D}}
+\code{\link[pcds]{muPE2D}}, \code{\link[pcds]{asy.varPE2D}},
+\code{\link{muAndCS2D}}, and \code{\link{asy.varAndCS2D}}
 }
 \author{
 Elvan Ceyhan

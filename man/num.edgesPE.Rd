@@ -10,7 +10,8 @@ num.edgesPE(Xp, Yp, r, M = c(1, 1, 1), ugraph = c("underlying", "reflexivity"))
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graph of the PE-PCD.}
+which constitute the vertices of the underlying
+or reflexivity graph of the PE-PCD.}
 
 \item{Yp}{A set of 2D points
 which constitute the vertices of the Delaunay triangles.}

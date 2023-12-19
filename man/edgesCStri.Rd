@@ -10,7 +10,8 @@ edgesCStri(Xp, tri, t, M = c(1, 1, 1), ugraph = c("underlying", "reflexivity"))
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graphs of the CS-PCD.}
+which constitute the vertices of the underlying
+or reflexivity graphs of the CS-PCD.}
 
 \item{tri}{A \eqn{3 \times 2} matrix with each row
 representing a vertex of the triangle.}
@@ -25,7 +26,8 @@ default is \eqn{M=(1,1,1)}, i.e.,
 the center of mass of \code{tri}.}
 
 \item{ugraph}{The type of the graph based on CS-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 }
 \value{
@@ -80,7 +82,8 @@ With any interior center \code{M},
 the edge regions are constructed using the extensions
 of the lines combining vertices with \code{M}.
 
-See also (\insertCite{ceyhan:Phd-thesis,ceyhan:stamet2016;textual}{pcds.ugraph}).
+See also
+(\insertCite{ceyhan:Phd-thesis,ceyhan:stamet2016;textual}{pcds.ugraph}).
 }
 \examples{
 #\donttest{

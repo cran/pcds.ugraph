@@ -33,7 +33,8 @@ default is \eqn{M=(1,1,1)} i.e.
 the center of mass of \eqn{T_e}.}
 
 \item{ugraph}{The type of the graph based on CS-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 }
 \value{

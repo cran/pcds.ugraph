@@ -25,7 +25,8 @@ default for \eqn{M=(1,1,1)}
 which is the center of mass of each triangle.}
 
 \item{ugraph}{The type of the graph based on CS-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 }
 \value{
@@ -36,7 +37,8 @@ or reflexivity graph of the digraph}
 the underlying or reflexivity graph of the digraph,
 the center \code{M} used to
 construct the edge regions and the expansion parameter \code{t}.}
-\item{tess.points}{Tessellation points, i.e., points on which the tessellation
+\item{tess.points}{Tessellation points, i.e.,
+points on which the tessellation
 of the study region is performed, here, tessellation
 is Delaunay triangulation based on \code{Yp} points.}
 \item{tess.name}{Name of the tessellation points \code{tess.points}}

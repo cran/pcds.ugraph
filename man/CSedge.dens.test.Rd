@@ -28,7 +28,8 @@ which constitute the vertices of the Delaunay triangles.}
 which serves as the expansion parameter in CS proximity region.}
 
 \item{ugraph}{The type of the graph based on CS-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 
 \item{ch.cor}{A logical argument for convex hull correction,
@@ -111,7 +112,8 @@ outside the convex hull of \code{Yp} points
 are handled with a correction factor
 which is derived under the assumption of
 uniformity of \code{Xp} and \code{Yp} points in the study window,
-(see the description below for the argument \code{ch.cor} and the function code.)
+(see the description below for the argument \code{ch.cor}
+and the function code.)
 However, in the special case of no \code{Xp} points
 in the convex hull of \code{Yp} points,
 edge density is taken to be 1,

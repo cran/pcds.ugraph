@@ -2,7 +2,7 @@ Package: pcds.ugraph
 Type: Package
 Title: Underlying Graphs of Proximity Catch Digraphs and Their
         Applications
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: person("Elvan", "Ceyhan", email = "elvanceyhan@gmail.com",
                   role = c("aut", "cre"))
 Description: Contains the functions for construction and visualization of underlying and reflexivity graphs of 
@@ -24,8 +24,8 @@ Suggests: knitr, scatterplot3d, rmarkdown, bookdown, spelling
 RoxygenNote: 7.2.3
 Language: en-US
 NeedsCompilation: no
-Packaged: 2023-07-03 16:43:07 UTC; ezc0066
+Packaged: 2023-12-19 16:47:33 UTC; ezc0066
 Author: Elvan Ceyhan [aut, cre]
 Maintainer: Elvan Ceyhan <elvanceyhan@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-07-05 14:20:02 UTC
+Date/Publication: 2023-12-19 17:40:02 UTC

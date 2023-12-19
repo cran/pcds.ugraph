@@ -15,7 +15,8 @@ inci.mat.undPEstd.tri(
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graph of the PE-PCD.}
+which constitute the vertices of the underlying or
+reflexivity graph of the PE-PCD.}
 
 \item{r}{A positive real number
 which serves as the expansion parameter in PE proximity region;

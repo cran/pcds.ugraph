@@ -42,7 +42,8 @@ which may be entered as "CC" as well;
 default is \eqn{M=(1,1,1)}, i.e., the center of mass of \code{tri}.}
 
 \item{ugraph}{The type of the graph based on PE-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 
 \item{asp}{A \code{numeric} value,
@@ -78,7 +79,8 @@ and the triangle \code{tri}.
 PE proximity regions
 are constructed with respect to the triangle \code{tri}
 with expansion parameter \eqn{r \ge 1},
-i.e., edges may exist only for \code{Xp} points inside the triangle \code{tri}.
+i.e., edges may exist only for \code{Xp} points
+inside the triangle \code{tri}.
 
 Vertex regions are based on center \eqn{M=(m_1,m_2)}
 in Cartesian coordinates

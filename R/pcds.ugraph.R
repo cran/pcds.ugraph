@@ -35,5 +35,6 @@
 #' \insertAllCited{}
 #'
 #' @docType package
-#' @name pcds.ugraph
+#' @name pcds.ugraph-package
+"_PACKAGE"
 NULL

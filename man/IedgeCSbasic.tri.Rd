@@ -66,8 +66,8 @@ returns 0 otherwise.
 
 In both cases \eqn{N_{CS}(x,t)} is the CS proximity region for point \eqn{x}
 with expansion parameter \eqn{t > 0}.
-CS proximity region is defined
-with respect to the standard basic triangle \eqn{T_b=T((0,0),(1,0),(c_1,c_2))}
+CS proximity region is defined with respect to
+the standard basic triangle \eqn{T_b=T((0,0),(1,0),(c_1,c_2))}
 where \eqn{c_1} is
 in \eqn{[0,1/2]}, \eqn{c_2>0} and \eqn{(1-c_1)^2+c_2^2 \le 1}.
 

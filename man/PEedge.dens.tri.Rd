@@ -17,7 +17,8 @@ PEedge.dens.tri(
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graph of the PE-PCD.}
+which constitute the vertices of the underlying
+or reflexivity graph of the PE-PCD.}
 
 \item{tri}{A \eqn{3 \times 2} matrix with each row
 representing a vertex of the triangle.}
@@ -34,7 +35,8 @@ which may be entered as "CC" as well;
 default is \eqn{M=(1,1,1)}, i.e., the center of mass of \code{tri}.}
 
 \item{ugraph}{The type of the graph based on PE-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 
 \item{in.tri.only}{A logical argument (default is \code{in.tri.only=FALSE})

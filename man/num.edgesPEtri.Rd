@@ -50,7 +50,8 @@ with vertices in the given triangle \code{tri}}
 \item{num.in.tri}{Number of \code{Xp} points in the triangle, \code{tri}}
 \item{ind.in.tri}{The vector of indices of the \code{Xp} points
 that reside in the triangle}
-\item{tess.points}{Tessellation points, i.e., points on which the tessellation of the study region is performed,
+\item{tess.points}{Tessellation points, i.e., points on which
+the tessellation of the study region is performed,
 here, tessellation is the support triangle.}
 \item{vertices}{Vertices of the underlying or reflexivity graph, \code{Xp}.}
 }

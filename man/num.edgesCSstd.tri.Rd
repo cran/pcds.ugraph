@@ -36,7 +36,8 @@ the reflexivity graph (default is \code{"underlying"}).}
 A \code{list} with the elements
 \item{desc}{A short description of the output: number of edges
 and quantities related to the standard equilateral triangle}
-\item{und.graph}{Type of the graph as "Underlying" or "Reflexivity" for the CS-PCD}
+\item{und.graph}{Type of the graph as "Underlying"
+or "Reflexivity" for the CS-PCD}
 \item{num.edges}{Number of edges of the underlying
 or reflexivity graphs based on the CS-PCD
 with vertices in the standard equilateral triangle \eqn{T_e}}

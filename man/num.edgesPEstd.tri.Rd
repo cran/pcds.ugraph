@@ -47,7 +47,8 @@ with vertices in the standard equilateral triangle \eqn{T_e}}
 in the standard equilateral triangle, \eqn{T_e}}
 \item{ind.in.tri}{The vector of indices of the \code{Xp} points
 that reside in \eqn{T_e}}
-\item{tess.points}{Tessellation points, i.e., points on which the tessellation of the study region is performed,
+\item{tess.points}{Tessellation points, i.e., points on which
+the tessellation of the study region is performed,
 here, tessellation is the support triangle \eqn{T_e}.}
 \item{vertices}{Vertices of the underlying or reflexivity graph, \code{Xp}.}
 }

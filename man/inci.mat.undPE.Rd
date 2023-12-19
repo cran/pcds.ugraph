@@ -16,7 +16,8 @@ inci.mat.undPE(
 }
 \arguments{
 \item{Xp}{A set of 2D points
-which constitute the vertices of the underlying or reflexivity graph of the PE-PCD.}
+which constitute the vertices of the underlying
+or reflexivity graph of the PE-PCD.}
 
 \item{Yp}{A set of 2D points
 which constitute the vertices of the Delaunay triangles.}
@@ -74,7 +75,8 @@ so the diagonal entries are all equal to 1.
 
 See (\insertCite{ceyhan:Phd-thesis,ceyhan:stamet2016;textual}{pcds.ugraph})
 for more on the PE-PCDs.
-Also, see (\insertCite{okabe:2000,ceyhan:comp-geo-2010,sinclair:2016;textual}{pcds.ugraph})
+Also, see
+(\insertCite{okabe:2000,ceyhan:comp-geo-2010,sinclair:2016;textual}{pcds.ugraph})
 for more on Delaunay triangulation and the corresponding algorithm.
 }
 \examples{

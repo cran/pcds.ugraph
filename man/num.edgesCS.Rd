@@ -24,7 +24,8 @@ default for \eqn{M=(1,1,1)}
 which is the center of mass of each triangle.}
 
 \item{ugraph}{The type of the graph based on CS-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 }
 \value{
@@ -32,7 +33,8 @@ A \code{list} with the elements
 \item{desc}{A short description of the output: number of edges
 and related quantities for the induced subgraphs of the underlying
 or reflexivity graphs (of CS-PCD) in the Delaunay triangles}
-\item{und.graph}{Type of the graph as "Underlying" or "Reflexivity" for the CS-PCD}
+\item{und.graph}{Type of the graph as "Underlying"
+or "Reflexivity" for the CS-PCD}
 \item{num.edges}{Total number of edges in all triangles,
 i.e., the number of edges for the entire underlying
 or reflexivity graphs of the CS-PCD}

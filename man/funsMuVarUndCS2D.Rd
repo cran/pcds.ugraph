@@ -5,8 +5,8 @@
 \alias{muOrCS2D}
 \alias{muAndCS2D}
 \alias{mu.undCS2D}
-\alias{asyvarOrCS2D}
-\alias{asyvarAndCS2D}
+\alias{asy.varOrCS2D}
+\alias{asy.varAndCS2D}
 \alias{asy.var.undCS2D}
 \title{Returns the mean and (asymptotic) variance of edge density of
 underlying or reflexivity graphs of
@@ -19,9 +19,9 @@ muAndCS2D(t)
 
 mu.undCS2D(t, ugraph = c("underlying", "reflexivity"))
 
-asyvarOrCS2D(t)
+asy.varOrCS2D(t)
 
-asyvarAndCS2D(t)
+asy.varAndCS2D(t)
 
 asy.var.undCS2D(t, ugraph = c("underlying", "reflexivity"))
 }
@@ -30,17 +30,19 @@ asy.var.undCS2D(t, ugraph = c("underlying", "reflexivity"))
 as the expansion parameter in CS proximity region.}
 
 \item{ugraph}{The type of the graph based on CS-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 }
 \value{
 \code{mu.undCS2D} returns the mean
-and \code{asyvarUndOrCS2D} returns the (asymptotic) variance of the
+and \code{asy.varUndOrCS2D} returns the (asymptotic) variance of the
 edge density of the underlying graph of the CS-PCD for uniform data in any triangle
 if \code{ugraph="underlying"},
 and those of the reflexivity graph if \code{ugraph="reflexivity"}.
-The functions \code{muOrCS2D}, \code{muAndCS2D}, \code{asyvarOrCS2D},
-and \code{asyvarAndCS2D} are the corresponding mean and asymptotic variance functions
+The functions \code{muOrCS2D}, \code{muAndCS2D}, \code{asy.varOrCS2D},
+and \code{asy.varAndCS2D} are the corresponding mean
+and asymptotic variance functions
 for the edge density of the reflexivity graph of the CS-PCD, respectively,
 for uniform data in any triangle.
 }
@@ -48,15 +50,16 @@ for uniform data in any triangle.
 The mean and (asymptotic) variance functions
 for the underlying or reflexivity graphs of
 Central Similarity Proximity Catch Digraphs (CS-PCDs):
-\code{muOrCS2D} and \code{asyvarOrCS2D} for the underlying graph
+\code{muOrCS2D} and \code{asy.varOrCS2D} for the underlying graph
 and
-\code{muAndCS2D} and \code{asyvarAndCS2D} for the reflexivity graph.
+\code{muAndCS2D} and \code{asy.varAndCS2D} for the reflexivity graph.
 
 \code{muOrCS2D} and \code{muAndCS2D} return the mean of the (edge) density of
 the underlying or reflexivity graphs of CS-PCDs, respectively,
 for 2D uniform data in a triangle.
-Similarly, \code{asyvarOrCS2D} and \code{asyvarAndCS2D} return the asymptotic variance
-of the edge density of the underlying or reflexivity graphs of CS-PCDs, respectively,
+Similarly, \code{asy.varOrCS2D} and \code{asy.varAndCS2D} return
+the asymptotic variance of the edge density of the underlying
+or reflexivity graphs of CS-PCDs, respectively,
 for 2D uniform data in a triangle.
 
 CS proximity regions are defined with expansion parameter \eqn{t > 0}
@@ -92,7 +95,7 @@ legend("bottomright", inset=.02,
 asy.var.undCS2D(1.2)
 asy.var.undCS2D(1.2,ugraph="r")
 
-asyvarOrCS2D(.2)
+asy.varOrCS2D(.2)
 
 tseq<-seq(.05,25,by=.05)
 ltseq<-length(tseq)
@@ -122,7 +125,7 @@ par(oldpar)
 }
 \seealso{
 \code{\link{mu.undCS2D}}, \code{\link{asy.var.undCS2D}}
-\code{\link[pcds]{muCS2D}}, and \code{\link[pcds]{asyvarCS2D}},
+\code{\link[pcds]{muCS2D}}, and \code{\link[pcds]{asy.varCS2D}},
 }
 \author{
 Elvan Ceyhan

@@ -38,7 +38,8 @@ default for \eqn{M=(1,1,1)}
 which is the center of mass of each triangle.}
 
 \item{ugraph}{The type of the graph based on CS-PCDs,
-\code{"underlying"} is for the underlying graph, and \code{"reflexivity"} is for
+\code{"underlying"} is for the underlying graph,
+and \code{"reflexivity"} is for
 the reflexivity graph (default is \code{"underlying"}).}
 
 \item{asp}{A \code{numeric} value,
@@ -92,7 +93,8 @@ for points inside the convex hull of \code{Yp} points.
 
 See (\insertCite{ceyhan:Phd-thesis,ceyhan:stamet2016;textual}{pcds.ugraph})
 for more on the CS-PCDs.
-Also, see (\insertCite{okabe:2000,ceyhan:comp-geo-2010,sinclair:2016;textual}{pcds.ugraph})
+Also, see
+(\insertCite{okabe:2000,ceyhan:comp-geo-2010,sinclair:2016;textual}{pcds.ugraph})
 for more on Delaunay triangulation and the corresponding algorithm.
 }
 \examples{

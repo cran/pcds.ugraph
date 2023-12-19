@@ -37,10 +37,12 @@ the reflexivity graph (default is \code{"underlying"}).}
 A \code{list} with the elements
 \item{type}{A description of the underlying
 or reflexivity graph of the digraph}
-\item{parameters}{Parameters of the underlying or reflexivity graph of the digraph,
+\item{parameters}{Parameters of the underlying
+or reflexivity graph of the digraph,
 the center \code{M} used to
 construct the vertex regions and the expansion parameter \code{r}.}
-\item{tess.points}{Tessellation points, i.e., points on which the tessellation of the study region
+\item{tess.points}{Tessellation points, i.e., points on which
+the tessellation of the study region
 is performed, here, tessellation is the support triangle.}
 \item{tess.name}{Name of the tessellation points \code{tess.points}}
 \item{vertices}{Vertices of the underlying
